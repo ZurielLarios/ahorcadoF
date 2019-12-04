@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+ <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->  
+	 <widget xmlns   = "http://www.w3.org/ns/widgets"  
+     xmlns:gap = "http://phonegap.com/ns/1.0"  
+     id    = "com.phonegap.Ahorcado"  
+     version  = "1.0.0">  
+	 
+   <name> Ahorcado </name>  
+   
+   <description>  
+     Juego del ahorcado
+   </description>  
+   
+   <author href="https://build.phonegap.com" email="zurielkyriat@gmail.com">  
+       Zuriel Larios
+   </author>  
+   
+   <!-- Personaliza la aplicacion y plataforma  -->  
+   <preference name="phonegap-version" 		value="cli-7.1.0" />
+   <preference name="orientation"        	value="landscape" />    
+   <preference name="target-device"         value="universal" />   
+   <preference name="fullscreen"         	value="true" />      
+   <preference name="android-installLocation"  	value="auto" />  
+   <preference name="SplashScreen" 			value="splash"/>
+   <preference name="SplashScreenDelay" 	value="1000"/>
+
+   <!-- Plugins -->  
+   <!-- Core plugins 
+
+   <plugin name="org.apache.cordova.contacts" spec="0.2.16" source="npm" /> 
+   <gap:plugin name="org.apache.cordova.vibration" /> 
+   <gap:plugin name="org.apache.cordova.dialogs" /> -->
+ 
+
+   <!-- Third party plugins -->
+   
+   <!-- Define los iconos de la aplicacion para cada plataforma   
+   <icon src="images/icon.ico" />  
+   <icon src="images/icon.ico"  gap:platform="android"  gap:qualifier="ldpi" />  
+   <icon src="images/icon.ico"  gap:platform="android"  gap:qualifier="mdpi" />  
+   <icon src="images/icon.ico"  gap:platform="android"  gap:qualifier="hdpi" />  
+   <icon src="images/icon.ico"  gap:platform="android"  gap:qualifier="xhdpi" />  -->
+
+   <!-- Define la pantalla de splash para cada plataforma -->  
+ <!--  <gap:splash src="splash/splash.html" />
+   <gap:splash src="splash/splash.html"    gap:platform="android" gap:qualifier="port-ldpi" />  
+   <gap:splash src="splash/splash.html"    gap:platform="android" gap:qualifier="port-mdpi" />  
+   <gap:splash src="splash/splash.html"    gap:platform="android" gap:qualifier="port-hdpi" />  
+   <gap:splash src="splash/splash.html"   gap:platform="android" gap:qualifier="port-xhdpi" />  -->
+   <icon src="images/f.png"/>
+
+   
+ </widget>
