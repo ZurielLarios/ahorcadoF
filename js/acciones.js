@@ -64,7 +64,7 @@ encontradas= 0;
 	posicionactual= 0;
 	letraactual= 0;
 
-	palabraoculta = palabras[encontradas].textopalabra.toUpperCase();
+	palabraoculta = palabras[encontradas].textoPalabra();
 		alert (palabraoculta);
 	palabraactual = ocultarpalabra(palabraoculta);
 
@@ -210,7 +210,7 @@ function obtenercoleccion(coleccion) {
 				 encontradas +=1;
 						if(encontradas<palabras.length){
 		
-		palabraoculta = palabras[encontradas].textopalabra.toUpperCase();
+		palabraoculta = palabras[encontradas].textoPalabra();
 		ocultarpalabra(palabraoculta);
 		$('#palabra').text(palabraactual);
 		oportunidades = 6;
